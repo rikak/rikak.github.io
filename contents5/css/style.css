@@ -1,0 +1,415 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header{
+	width: 100%;
+	background-color: #EC715F;
+	position: fixed;
+}
+nav{
+	width: 90%;
+	height: 70px;
+	margin: 0 auto;
+	text-align: right;
+}
+
+.title-1{
+	float: left;
+	height: 70px;
+	width: 200px;
+	line-height: 70px;
+}
+
+.title-1 img{
+	height: 70px;
+}
+
+
+.top-menu{
+	float: right;
+	width: 60%;
+	line-height: 70px;
+}
+.top-menu-item{
+	float: left;
+	width: 25%;
+	list-style: none;
+	/*color: #FAFAFA;*/
+}
+.top-menu-item a{
+	text-decoration: none;	
+	color: #FAFAFA;
+}
+
+
+.hako{
+	border: 1px solid #fff;
+	width: 20px;
+	padding: 5px;
+	display: none;
+}
+
+.fa-bars{
+	color: #fff;
+	font-size: 25px;
+	text-align: center;
+}
+
+
+
+/*section*/
+.img-1{
+	width: 100%;
+	height: 650px;
+	padding-top: 100px;
+	color: yellow;
+	background-repeat: no-repeat;
+	background-image: url(../../../../img/code.png);
+	background-size: cover;
+	text-align: center;
+}
+
+.text-1{
+	padding-top: 200px;
+}
+
+
+/*section*/
+.title-2{
+    text-align: center;
+    padding-top: 200px;     
+    padding-bottom: 8px;
+    margin: 0 auto;
+}
+#box .line{
+    background-color: #EC715F;
+    width: 80px;
+    height: 1px;
+    /*padding-top: 8px;これいらない*/
+    margin: 0 auto;
+}
+/*下線ではなく今回は一つのボックスとして作る*/
+
+h6{
+    text-align: center;
+    padding-top: 30px;
+}
+.learge-box{
+	width: 930px;  /*大きく取りすぎるとバランスが崩れるので注意*/
+	height: 600px;
+	padding-top: 30px;
+	padding-bottom: 90px;
+	background-size: cover;
+	margin: 0 auto;
+	/*　！重要！margin: 0 auto; センター合わせ*/
+}
+
+.box{
+	width: 300px;
+	height: 300px;
+	margin: 5px;
+	border: 0;
+	background-size: cover;
+	float: left;
+}
+
+.box1{
+	background-image: url(../../../①/34/img/sketch.jpg);
+}
+.box2{
+    background-image: url(../../../①/34/img/websuku.png);
+    background-position: -100px;	
+}
+.box3{
+	background-image: url(../../../①/34/img/write.jpg);
+}
+.box4{
+	background-image: url(../../../①/34/img/webcamp.png);
+	background-position: -100px;
+}
+.box5{
+	background-image: url(../../../①/34/img/talk.jpg);
+}
+.box6{
+	background-image: url(../../../①/34/img/webcamp-mother.png);
+	background-position: -100px;
+}
+
+
+/*section*/
+#feature{
+	font-family: 'Indie Flower', cursive;
+}
+
+#feature h1{
+	text-align: center;
+	padding-top: 90px;
+	padding-top: 300px;
+	margin: 0 auto;
+}
+
+#feature .line{
+	background-color: #EC715F;
+	width: 100px;
+	height: 2px;
+	margin: 0 auto;
+}
+
+#feature .text-3{
+	text-align: center;
+	padding-top: 30px;
+	font-size: 15px;
+	margin: 0 auto;
+}
+
+.learge-box1{
+    width: 1050px;
+    /*height: 150px;*/
+    /*padding-bottom: 90px;*/
+    margin: 0 auto;  
+}
+
+.box-1{
+	float: left;
+	width: 320px;
+	/*height: 200px; ハイトは決めなければ必要な分だけ自動にとってくれる*/
+	/*border: 0;*/
+	padding: 30px 10px 90px 10px;
+	font-size: 90px;
+	/*background-size: cover;*/
+	margin: 0 auto;
+	text-align: center;
+}
+
+h2{
+	margin: 0 auto;
+	padding-bottom: 10px;
+	font-size: 15px;
+}
+
+p{
+	font-size: 15px;
+	text-align: left;
+}
+
+/*section*/
+.top{
+	text-align: center;
+	padding-top: 50px;
+    margin: 0 auto;
+}
+
+#pro .line{
+	background-color: #EC715F;
+	width: 100px;
+	height: 2px;
+	margin: 0 auto;
+}
+
+#pro{
+	font-family: 'Bellefair', serif;
+}
+
+.text-4{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 15px;
+	width: 700px;
+	/*height: 10px;ここ指定しなくていい。文字に合わせて自動に高さ調節してくれる*/
+	margin: 0 auto;
+
+}
+.learge-box2{
+	width: 800px;
+	padding-top: 30px;
+	padding-bottom: 90px;
+	margin: 0 auto;
+    
+}
+
+.circle{
+	float: left;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	background-image: url(../../../①/38/my-icon.jpg);
+	text-align: left;
+}
+
+#pro .box-2{
+	width: 400px;
+	padding: 0px 30px 30px;
+	margin: 0px 320px; 
+	text-align: left;
+}
+
+#pro h2{
+	font-size: 18px;
+	padding-bottom: 10px;
+
+}
+#pro .text-5{
+	text-align: left;
+}
+
+/*section*/
+
+.title-4{
+	padding-top: 50px;
+	padding-bottom: 8px;
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+#last .line{
+    width: 130px;
+    height: 2px;
+    background-color: #EC715F;
+    margin: 0 auto;
+}
+
+#last p{
+	font-size: 10px;
+}
+
+#last .text-6{
+	width: 500px;
+	height: 50px;
+	padding-top: 30px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.learge-box3{
+	width: 800px;
+	padding-top: 30px;
+	padding-bottom: 70px;
+	margin: 0 auto;
+}
+
+.small-box2{
+	float: left;
+	width: 50%;
+}
+
+h2{
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+
+h3{
+	font-size: 10px;
+	padding-bottom: 20px;
+}
+
+.box12, .box13 {
+	width: 30%;
+	margin: 0 auto;
+}
+
+#last .fa{
+	padding: 0px 8px;
+}
+
+.box14{
+	width: 50%;
+	margin: 0 auto;
+}
+
+.footer{
+	width: 100%;
+	height: 60px;
+	background-color: pink;
+	/*position: fixed;*/
+	margin: 0 auto;
+	text-align: center;
+	line-height: 60px;/*heightと同じ数値で上下の中央に来る*/
+}
+
+
+@media all and (max-width: 767px){
+    .pc{
+   	  display: none;
+    }
+
+    .sp{
+       display: block;
+       background-position: center;
+       float: none;
+    }
+
+    .hako{
+    	float: right;
+    	margin-top: 15px;
+    }
+
+    #last .sp, #pro .sp{
+   	  text-align: center;
+    }
+
+    .learge-box{
+	     width: 100%;  
+	}
+
+	.box{
+		margin: 5px auto;
+	}
+   
+    .learge-box1{
+         width: 100%;  
+    }
+
+    .text-4{
+    	width: 100%;
+    }
+    .learge-box2{
+	     width: 100%; 
+    }
+
+    .circle{
+    	margin: 0 auto;
+    }
+
+    #pro .box-2{
+	     width: 100%;
+	     margin: 0;
+	     padding: 0;
+	     /*text-align: left;*/
+    }
+
+    
+    #pro .text-5{
+    	text-align: center;
+    }
+   
+    #last .text-6{
+    	width: 100%;
+    }
+
+    .learge-box3{
+    	width: 100%;
+    }
+
+    .small-box2{
+    	margin: 0 auto;
+    }
+   
+    .box14{
+   	    width: 200px;
+    }
+   
+}
+
+
+
+
